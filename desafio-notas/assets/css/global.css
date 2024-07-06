@@ -1,0 +1,19 @@
+.student-data {
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.student-data li {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em;
+}
+
+.student-data li span {
+    align-self: flex-end;
+    width: 50%;
+}
